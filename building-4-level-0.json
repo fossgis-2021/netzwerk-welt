@@ -181,19 +181,6 @@
                         }]
                 }],
          "tilewidth":32
-        }, 
-        {
-         "columns":163,
-         "firstgid":10,
-         "image":"tilesets\/workadventure_ost_campus_rj@2x.png",
-         "imageheight":5352,
-         "imagewidth":5232,
-         "margin":0,
-         "name":"workadventure_ost_campus_rj@2x",
-         "spacing":0,
-         "tilecount":27221,
-         "tileheight":32,
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
