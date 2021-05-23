@@ -28,4 +28,4 @@ Den Kachel-Karten-Editor [Tiled](https://www.mapeditor.org/) installieren und da
 # Lizenzen
 
 * [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
-* `css/fonts/game_over.woff2`: [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) [fodkito 2009](https://www.cufonfonts.com/font/game-over)
+* `css/fonts/PressStart2P.woff`: [SIL Open Font License, Version 1.1](https://opensource.org/licenses/OFL-1.1) (C) 2011-2012 [Cody "CodeMan38" Boisclair](https://www.dafont.com/press-start-2p.font)
