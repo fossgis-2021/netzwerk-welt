@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Game Over Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Game Over Regular'), url('fonts/game_over.woff2') format('woff2');
+}
+
+body {
+	font-family: 'Game Over Regular', monospace;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 72pt;
+}
+
+h2 {
+	font-size: 36pt;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 24pt;
+}
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	color: #eb7f00;
+}
+
+section {
+	display: none;
+}
+
+section:target {
+	display: block;
+}
+
+footer {
+	font-size: 16pt;
+}
