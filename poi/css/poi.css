@@ -30,6 +30,8 @@ header, main, footer {
 body {
 	font-family: 'Press Start 2P', monospace;
 	font-weight: normal;
+	color: #00ff00;
+	background: #000000;
 }
 
 h1 {
@@ -48,7 +50,7 @@ p {
 }
 
 a {
-	color: #000000;
+	color: #00ff00;
 }
 
 a:hover {
