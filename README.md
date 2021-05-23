@@ -24,3 +24,8 @@ Den Kachel-Karten-Editor [Tiled](https://www.mapeditor.org/) installieren und da
    ```bash
    tiled campus.json
    ```
+
+# Lizenzen
+
+* [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+* `css/fonts/game_over.woff2`: [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) [fodkito 2009](https://www.cufonfonts.com/font/game-over)
