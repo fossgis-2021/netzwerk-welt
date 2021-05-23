@@ -41,7 +41,24 @@ section:target {
 	display: block;
 }
 
+figcaption {
+	line-height: 16pt;
+}
+
 footer {
 	font-size: 16pt;
 	line-height: 32pt;
+}
+
+dl.credits {
+	display: grid;
+	grid-template-columns: max-content auto;
+}
+
+dl.credits > dt {
+	grid-column-start: 1;
+}
+
+dl.credits > dd {
+	grid-column-start: 2;
 }
