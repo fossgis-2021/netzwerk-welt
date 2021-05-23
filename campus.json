@@ -446,16 +446,6 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/fossgis-2021.github.io\/netzwerk-welt\/poi\/campus.html#infotafel"
-                }, 
-                {
-                 "name":"openWebsiteTrigger",
-                 "type":"string",
-                 "value":"onaction"
-                }, 
-                {
-                 "name":"openWebsiteTriggerMessage",
-                 "type":"string",
-                 "value":"Leertaste dr\u00fccken oder hier klicken um Infotafel-Webseite zu \u00f6ffnen"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -474,16 +464,6 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/fossgis-2021.github.io\/netzwerk-welt\/poi\/campus.html#faeschtinseli"
-                }, 
-                {
-                 "name":"openWebsiteTrigger",
-                 "type":"string",
-                 "value":"onaction"
-                }, 
-                {
-                 "name":"openWebsiteTriggerMessage",
-                 "type":"string",
-                 "value":"Leertaste dr\u00fccken oder hier klicken um F\u00e4schtinseli-Webseite zu \u00f6ffnen"
                 }],
          "type":"tilelayer",
          "visible":true,
