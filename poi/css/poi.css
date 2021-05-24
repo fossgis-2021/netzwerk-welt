@@ -34,13 +34,8 @@ body {
 	background: #000000;
 }
 
-h1 {
+h1, h2 {
 	font-size: 48pt;
-	font-weight: normal;
-}
-
-h2 {
-	font-size: 36pt;
 	font-weight: normal;
 }
 
