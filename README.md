@@ -25,7 +25,11 @@ Den Kachel-Karten-Editor [Tiled](https://www.mapeditor.org/) installieren und da
    tiled campus.json
    ```
 
-# Lizenzen
+## Zur Karte Beitragen
+
+Siehe [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## Lizenzen
 
 * [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 * `css/fonts/PressStart2P.woff`: [SIL Open Font License, Version 1.1](https://opensource.org/licenses/OFL-1.1) (C) 2011-2012 [Cody "CodeMan38" Boisclair](https://www.dafont.com/press-start-2p.font)
