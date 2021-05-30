@@ -25,7 +25,7 @@ Den Kachel-Karten-Editor [Tiled](https://www.mapeditor.org/) installieren und da
    tiled campus.json
    ```
 
-## Zur Karte Beitragen
+## Zur Karte beitragen
 
 Siehe [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
