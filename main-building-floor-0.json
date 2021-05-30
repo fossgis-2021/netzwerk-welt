@@ -91,7 +91,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/fossgis-konferenz.de\/2021\/expo\/camptocamp.php"
+                 "value":"https:\/\/www.fossgis-konferenz.de\/2021\/expo\/wheregroup.php"
                 }],
          "type":"tilelayer",
          "visible":true,
