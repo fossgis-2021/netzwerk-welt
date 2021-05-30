@@ -307,7 +307,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/fossgis.de\/"
+                 "value":"https:\/\/fossgis.de"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -343,7 +343,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.osgeo.org\/"
+                 "value":"https:\/\/www.osgeo.org"
                 }],
          "type":"tilelayer",
          "visible":true,
