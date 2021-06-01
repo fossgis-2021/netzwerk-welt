@@ -18,6 +18,7 @@ jobs:
         run: |
           mkdir -v dist
           cp -v *.json dist
+          ./bin/build-private-maps *.json
           cp -v .nojekyll dist
           cp -Rv poi sounds dist
           rsync -av --prune-empty-dirs --include "*/"  --include="*.png" --exclude="*" tilesets/ dist/tilesets

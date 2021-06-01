@@ -1,0 +1,78 @@
+#!/usr/bin/env perl
+
+use 5.010001;
+use strict;
+use warnings;
+
+use Carp;
+use JSON::PP;
+use File::Spec::Functions qw(catfile);
+
+sub new {
+	my ($class) = @_;
+
+	return bless {
+		target_dir => 'dist',
+		maps       => [ @ARGV ],
+		base       => '/@/fossgis-e.v./fossgis-konferenz-2021',
+		mapping    => {
+			'building-2-level-0.json'    => 'diy2',
+			'building-3-level-0.json'    => 'diy3',
+			'building-4-level-0.json'    => 'diy4',
+		      	'building-5-level-0.json'    => 'diy5',
+		      	'building-6-level-0.json'    => 'diy6',
+		       	'building-8-level-0.json'    => 'diy8',
+		      	'campus.json'                => 'netzwerkwelt',
+		      	'main-building-floor-0.json' => 'expo',
+		},
+	}, $class;
+}
+
+sub run {
+	my ($self) = @_;
+
+	unless (-d $self->{target_dir}) {
+		croak('Target directory ' . $self->{target_dir} . ' does not exist');
+	}
+
+	for my $map_file (@{$self->{maps}}) {
+		say 'Converting ' . $map_file . '...';
+
+		my $map_data;
+		{
+			open(my $fh, '<', $map_file) 
+				or confess('Failed to open ' . $map_file . ': ' . $!);
+			local $/ = undef;
+			$map_data = <$fh>;
+			close($fh);
+		}
+
+		my $map = decode_json($map_data);
+		LAYER: for my $layer (@{$map->{layers}}) {
+			my ($exit_url_property) = grep {
+				$_->{name} eq 'exitUrl'
+			} @{$layer->{properties} // []};
+			unless (defined $exit_url_property) {
+				next LAYER;
+			}
+
+			my ($exit_map, $entrance) = $exit_url_property->{value} =~ m{^([^#]+)#(.*)};
+			my $private_map_name = $self->{mapping}->{$exit_map};
+			unless (defined $private_map_name) {
+				croak('No mapping for exit map ' . $exit_map . ' defined');
+			}
+
+			my $new_value = catfile($self->{base}, $private_map_name . '#' . $entrance);
+			$exit_url_property->{value} = $new_value;
+		}
+
+		my $target_file = catfile($self->{target_dir}, 'private-' . $map_file);
+		open(my $out_fh, '>', $target_file)
+			or confess('Failed to open ' . $target_file . ': ' . $!);
+		print {$out_fh} encode_json($map);
+		close($out_fh);
+		say 'Wrote ' . $target_file . '.';
+	}
+}
+
+__PACKAGE__->new()->run();
