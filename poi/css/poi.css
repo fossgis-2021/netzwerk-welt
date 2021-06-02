@@ -66,6 +66,10 @@ figure {
 	margin-right: 0;
 }
 
+figure > img {
+	width: 100%;
+}
+
 figcaption {
 	line-height: 16pt;
 }
