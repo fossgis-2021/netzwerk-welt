@@ -35,11 +35,16 @@ Siehe [`CONTRIBUTING.md`](CONTRIBUTING.md).
 * `css/fonts/PressStart2P.woff`: [SIL Open Font License, Version 1.1](https://opensource.org/licenses/OFL-1.1) (C) 2011-2012 [Cody "CodeMan38" Boisclair](https://www.dafont.com/press-start-2p.font)
 * `sounds/`
     * [`AMBSea_Sea_waves_(ID_0266)_BSB.mp3`](https://bigsoundbank.com/detail-0266-sea-waves.html): DenisChardonnet, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
-    
     * [`AMBUrbn_Bus_stop_in_japan_(ID_0909)_BSB.mp3`](https://bigsoundbank.com/detail-0909-bus-stop-in-japan.html): Olivier du Japon, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
-    
     * [`Elephant-SoundBible.com-551032783.mp3`](https://soundbible.com/1140-Elephant.html): Mike Koenig, [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/)
-    
     * [`TRNElec_Train_passes_(ID_0900)_BSB.mp3`](https://bigsoundbank.com/detail-0900-train-passes.html): Joseph SARDIN, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
-    
-      
+
+- tilesets/building6
+  - tiles by Mullana, free to use-CC0, cc@mullana.de
+  - Alpaka World Tiles (https://tiles.alpaka.world)
+    - "Alpaka World Starter Set" by Alpaka World Builders / CC-BY 4.0 
+    - "Alpaka World Wall Set" by Alpaka World Builders / CC-BY 4.0
+    - "Alpaka World Inside Set" by Alpaka World Builders / CC-BY 4.0
+    - "Alpakas" by Alpaka World Builders / CC-BY 4.0
+    - "Alpaka World Inside Set" by Alpaka World Builders / CC-BY 4.0
+
