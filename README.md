@@ -38,3 +38,12 @@ Siehe [`CONTRIBUTING.md`](CONTRIBUTING.md).
     * [`AMBUrbn_Bus_stop_in_japan_(ID_0909)_BSB.mp3`](https://bigsoundbank.com/detail-0909-bus-stop-in-japan.html): Olivier du Japon, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
     * [`Elephant-SoundBible.com-551032783.mp3`](https://soundbible.com/1140-Elephant.html): Mike Koenig, [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/)
     * [`TRNElec_Train_passes_(ID_0900)_BSB.mp3`](https://bigsoundbank.com/detail-0900-train-passes.html): Joseph SARDIN, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+* `tilesets/building6`
+    * tiles by Mullana, cc@mullana.de, free to use, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+    * [Alpaka World Tiles](https://tiles.alpaka.world)
+        * "Alpaka World Starter Set" by Alpaka World Builders, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+        * "Alpaka World Wall Set" by Alpaka World Builders, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+        * "Alpaka World Inside Set" by Alpaka World Builders, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+        * "Alpakas" by Alpaka World Builders, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+        * "Alpaka World Inside Set" by Alpaka World Builders, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
